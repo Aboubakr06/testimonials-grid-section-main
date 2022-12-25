@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/testimonials-grid-section-rrnlUacP3_)
+- Solution URL: (https://www.frontendmentor.io/solutions/testimonials-grid-section-rrnlUacP3)
 - Live Site URL: (https://cozy-truffle-347540.netlify.app/)
 
 ## My process
