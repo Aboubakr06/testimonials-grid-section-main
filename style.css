@@ -87,9 +87,8 @@ li {
 
 /**********************
   CSS main styles   ***
-***********************/
-
-.sr-only {
+  ***********************/
+  .sr-only {
     position: absolute;
     height: 1px; width: 1px; 
     overflow: hidden;
@@ -107,7 +106,7 @@ body {
     place-content: auto;
 }
 
-.cards {
+.quotes {
     --content-spacing: 1.2rem;
 
     display: grid;
@@ -180,7 +179,7 @@ body {
 }
 
 
-.light__card p{
+.light__card .quotations{
     color: var(--clr-primary-300);
 }
 
@@ -194,7 +193,7 @@ body {
 
 @media (min-width:47em) {
 
-    .cards {
+    .quotes {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows:  1fr;
         grid-template-areas: 
@@ -203,23 +202,23 @@ body {
                     ;
     }
 
-    .cards> :nth-child(1) {
+    .quotes> :nth-child(1) {
         grid-area: a;
     }
 
-    .cards> :nth-child(2) {
+    .quotes> :nth-child(2) {
         grid-area: b;
     }
 
-    .cards> :nth-child(3) {
+    .quotes> :nth-child(3) {
         grid-area: c;
     }
 
-    .cards> :nth-child(4) {
+    .quotes> :nth-child(4) {
         grid-area: d;
     }
 
-    .cards> :nth-child(5) {
+    .quotes> :nth-child(5) {
         grid-area: e;
     }
    
